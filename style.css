@@ -1,0 +1,331 @@
+/* Basic CSS Reset */
+* 
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #090000;
+    background-size: 1000px;
+    opacity: 1;
+
+
+}
+
+header {
+    background-image: url("https://i.pinimg.com/originals/87/f3/f1/87f3f1425b217691da645e97dbb50d55.gif");
+    color: #ffff;
+    padding: 10rem 0;
+    padding: 5%;
+    text-align: center;
+    font-size: 50px;
+    border: #000000;
+    margin-top: -0%;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    
+}
+h2{
+    position: static;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    color: #00000;
+    font-size: 50px; 
+    
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img{
+    width:250px;
+    height:300px;
+    border: 2px solid #0000;
+    border-radius: 10px;
+    box-shadow: 6px 10px 20px 1px #597E52;
+    cursor: pointer;
+    margin: 30px;
+    transition: 400ms;
+}
+div img:hover{
+    filter: color(1);
+    transform: scale(1.03);
+}
+
+
+main {
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+#information{
+    background-color: #b3b3b3;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color: #000000;
+    min-height: min-content;
+    padding-left: 1rem;
+
+}
+h3{
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+color: #000000;
+
+
+}
+#family{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #b3b3b3;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    box-shadow: 6px 10px 20px 1px #010500e5;
+    color: #000000;
+    min-height: min-content;
+    padding-left: 1rem;
+}
+
+
+.slidershow{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:100px;
+    margin-right: 100px;
+
+    
+}
+.middle{
+    transform: translate(-5%, -30%);
+    width: 600px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+    padding-top: 7rem;
+    min-height: min-content;
+
+    
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: 10%;
+    overflow: hidden;
+    transform: translate(-0%);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    min-height: min-content;
+}
+.bar{
+    margin: 100px;
+    width: 38px;
+    height: 1px;
+    border: 2px solid #000000;
+    margin: 15px;
+    cursor: pointer;
+    transition: o.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 0.5rem;
+    min-height: min-content;
+
+   
+    
+}
+.bar:hover{
+    background: #000000;
+
+}
+input[ name="r"]{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    min-height: min-content;
+
+
+}
+.slides{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+}
+.slide{
+    width: 22%;
+    transition: 0.6s;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.slide img{
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20rem;
+    padding-right: 30rem;
+    padding-left: 26rem;
+    min-height: min-content;
+    margin-left:50px;
+    margin-right: 50px;
+
+    
+}
+#rf:checked ~ .s1{
+    margin-left: -10;
+}
+#rm:checked ~ .s1{
+    margin-left: -20%;
+}
+#rk:checked ~ .s1{
+    margin-left: -40%;
+}
+#ra:checked ~ .s1{
+    margin-left: -60%;
+}
+#rb:checked ~ .s1{
+    margin-left: -80%;
+}
+#rs:checked ~ .s1{
+    margin-left: -100%;
+}
+#rn:checked ~ .s1{
+    margin-left: -120%;
+}
+#rlove:checked ~ .s1{
+    margin-left: -140%;
+}
+
+
+#hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #b3b3b3;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    color: #000000;
+    min-height: min-content;
+    padding-left: 2rem;
+}
+.skills-talents{
+    background-color: #b3b3b3;
+    border-radius: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color: pink;
+    min-height: min-content;
+    padding-left: 1rem;
+}
+.skills-talents img{
+    width:250px;
+    height:250px;
+    border: 10px solid #070707;
+    border-radius: 95%;
+    border-color: #cac15a;
+    cursor: pointer;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    transition: 400ms;
+}
+#strength-weaknesses{
+    background-color: #b3b3b3;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color: #000000;
+    min-height: min-content;
+    padding-left: 1rem;
+
+}
+p{
+    font-size: 30px;
+    line-height: 2em;
+    margin-bottom: 32px;
+}
+
+.strength{
+    background-color: #1599af;
+    width: 520px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-left: 300px;
+    min-height: min-content;
+    padding-left: 1rem;
+    
+
+}
+.weakness{
+    background-color: #e63939;
+    width: 520px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-left: 300px;
+    min-height: min-content;
+    padding-left: 1rem;
+}
+#career{
+    background-color: #b3b3b3;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color: #000000;
+    min-height: min-content;
+    padding-left: 1rem;
+
+}
+.job{
+    
+}
